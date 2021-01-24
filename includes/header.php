@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron bg-primary text-light p-1">
+      <div class="bg-primary text-light p-4">
         <h1>Car Store</h1>
         <p>Meu primeiro projeto no git hub</p>
       </div>
