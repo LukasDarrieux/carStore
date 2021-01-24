@@ -13,63 +13,63 @@
         private $fipe;
         private $preco;
 
-        public function __construct(){
+        function __construct(){
 
         }
 
-        public function getId(){
+        function getId(){
             return $this->id;
         }
-        public function setId($id){
+        function setId($id){
             $this->id = $id;
         }
 
-        public function getMarca(){
+        function getMarca(){
             return $this->marca;
         }
-        public function setMarca($marca){
+        function setMarca($marca){
             $this->marca = $marca;
         }
 
-        public function getModelo(){
+        function getModelo(){
             return $this->modelo;
         }
-        public function setModelo($modelo){
+        function setModelo($modelo){
             $this->modelo = $modelo;
         }
 
-        public function getVersao(){
+        function getVersao(){
             return $this->versao;
         }
-        public function setVersao($versao){
+        function setVersao($versao){
             $this->versao = $versao;
         }
 
-        public function getAno(){
+        function getAno(){
             return $this->ano;
         }
-        public function setAno($ano){
+        function setAno($ano){
             $this->ano = $ano;
         }
 
-        public function getPlaca(){
+        function getPlaca(){
             return $this->placa;
         }   
-        public function setPlaca($placa){
+        function setPlaca($placa){
             $this->placa = $placa;
         }
 
-        public function getFipe(){
+        function getFipe(){
             return $this->fipe;
         }   
-        public function setFipe($fipe){
+        function setFipe($fipe){
             $this->fipe = $fipe;
         }
 
-        public function getPreco(){
+        function getPreco(){
             return $this->preco;
         }   
-        public function setPreco($preco){
+        function setPreco($preco){
             $this->preco = $preco;
         }
     }

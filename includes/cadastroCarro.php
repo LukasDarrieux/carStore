@@ -5,9 +5,9 @@
         </a>
     </section>
 
-    <h2 class="mt-3">Cadastrar Carro</h2>
+    <h2 class="mt-3"><?=TITULO?></h2>
 
-    <form action="post">
+    <form method="post">
         
         <div class="form-group">
             <label>Marca</label>
