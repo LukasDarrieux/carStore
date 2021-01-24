@@ -27,9 +27,9 @@
         echo "<div class='alert alert-warning mt-3'>".$mensagem."</div>";
     } else { 
         
-        if(!empty($_POST["txtMarca"]) && !empty($_POST["txtMarca"]) && !empty($_POST["txtModelo"]) 
-        && !empty($_POST["txtMVersao"]) && !empty($_POST["txtVersao"]) && !empty($_POST["txtAno"]) 
-        && !empty($_POST["txtFipe"]) && !empty($_POST["txtPreco"]) && !empty($_POST["txtPlaca"])) {
+        if(!empty($_POST["txtMarca"])  && !empty($_POST["txtModelo"]) && !empty($_POST["txtVersao"]) 
+        && !empty($_POST["txtAno"])   && !empty($_POST["txtPlaca"])   && !empty($_POST["txtFipe"])   
+        && !empty($_POST["txtPreco"])) {
 
             $carro = new Carro;
             $carro->setMarca($_POST["txtMarca"]);
@@ -44,7 +44,6 @@
             if(!$carroDAO->inserir($carro)){
                 echo "<div class='alert alert-warning mt-3'>Erro ao cadastrar carro</div>";
             } else {
-                die("header");
                 header("Location: index.php?tipo=1&status=success");
             }
         }
